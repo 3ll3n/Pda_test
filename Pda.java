@@ -1,7 +1,7 @@
 class Pda {
 
   public boolean func1(int val){
-    if(val = 1){
+    if(val == 1){
       return true;
     }else{
       return false;
@@ -24,12 +24,12 @@ class Pda {
     }
   } 
 
-  public void checkLoop(){
-    if (looper == 10){
-      return "looper passed";
-    }
-    else{
-      return "looper failed";
-    }
-  }
+  // public void checkLoop(){
+  //   if (looper == 10){
+  //     return "looper passed";
+  //   }
+  //   else{
+  //     return "looper failed";
+  //   }
+  // }
 }
