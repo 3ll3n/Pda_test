@@ -33,7 +33,7 @@ public class PdaTest{
 
   @Test
   public void testLooper(){
-    assertEquals();
+    assertEquals(11, pda.looper());
   }
 
   // @Test
