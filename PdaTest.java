@@ -36,13 +36,13 @@ public class PdaTest{
     assertEquals(11, pda.looper());
   }
 
-  // @Test
-  // public void testCheckLooperPassed(){
-  //   assertEquals("looper passed", pda.checkLoop());
-  // }
+  @Test
+  public void testCheckLooperPassed(){
+    assertEquals("looper passed", pda.checkLoop(10));
+  }
 
-  // @Test
-  // public void testCheckLooperFailed(){
-  //   assertEquals("looper failed", pda.checkLoop());
-  // }
+  @Test
+  public void testCheckLooperFailed(){
+    assertEquals("looper failed", pda.checkLoop(9));
+  }
 }

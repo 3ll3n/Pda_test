@@ -24,12 +24,12 @@ class Pda {
     return i;
   } 
 
-  // public void checkLoop(){
-  //   if (looper == 10){
-  //     return "looper passed";
-  //   }
-  //   else{
-  //     return "looper failed";
-  //   }
-  // }
+  public String checkLoop(int looper){
+    if (looper == 10){
+      return "looper passed";
+    }
+    else{
+      return "looper failed";
+    }
+  }
 }
